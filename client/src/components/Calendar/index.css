@@ -1,0 +1,49 @@
+.bg {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.heading {
+  color: lightcoral;
+  font-size: 55px;
+}
+
+.para {
+  font-size: 18px;
+  margin: 0px;
+}
+
+.calendar {
+  width: 80%;
+  margin-top: 3%;
+}
+
+.info-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: cornflowerblue;
+  color: aliceblue;
+  height: 35px;
+  border-radius: 8px;
+  width: 130px;
+  margin-bottom: 2%;
+}
+.link {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-decoration: none;
+}
